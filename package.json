@@ -1,24 +1,32 @@
 {
+  "name": "relevant-text",
+  "description": "NodeJS Package to extract relevant text from html pages.",
+  "version": "0.1.3",
+  "homepage": "https://github.com/eberlitz/relevant-text",
+  "keywords": [
+    "relevant",
+    "content",
+    "html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eberlitz/relevant-text.git"
+  },
   "author": {
     "name": "Eduardo Eidelwein Berlitz",
     "email": "eberlitz@gmail.com"
   },
-  "name": "relevant-text",
-  "description": "NodeJS Package to extract relevant text from html pages.",
-  "version": "0.1.3",
   "main": "./lib/main",
   "bin": {
     "relevant-text": "./bin/relevant-text"
+  },
+  "engines": {
+    "node": ">= 0.10.9"
   },
   "dependencies": {
     "zombie": "*",
     "optimist":"~0.6.0" 
   },
   "devDependencies": {},
-  "optionalDependencies": {},
-  "engines": {
-    "node": ">= 0.10.9"
-  },
-  "readme": "ERROR: No README data found!",
-  "readmeFilename": "README.md"
+  "private": false
 }
