@@ -1,32 +1,34 @@
 {
-  "name": "relevant-text",
-  "description": "NodeJS Package to extract relevant text from html pages.",
-  "version": "0.1.4",
-  "homepage": "https://github.com/eberlitz/relevant-text",
-  "keywords": [
-    "relevant",
-    "content",
-    "html"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/eberlitz/relevant-text.git"
-  },
-  "author": {
-    "name": "Eduardo Eidelwein Berlitz",
-    "email": "eberlitz@gmail.com"
-  },
-  "main": "./lib/relevantText",
-  "bin": {
-    "relevant-text": "./bin/relevant-text"
-  },
-  "engines": {
-    "node": ">= 0.10.9"
-  },
-  "dependencies": {
-    "zombie": "*",
-    "optimist":"~0.6.0" 
-  },
-  "devDependencies": {},
-  "private": false
+    "name": "relevant-text",
+    "description": "NodeJS Package to extract relevant text from html pages.",
+    "version": "0.1.5",
+    "homepage": "https://github.com/eberlitz/relevant-text",
+    "keywords": [
+        "relevant",
+        "content",
+        "html",
+        "text",
+        "page"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eberlitz/relevant-text.git"
+    },
+    "author": {
+        "name": "Eduardo Eidelwein Berlitz",
+        "email": "eberlitz@gmail.com"
+    },
+    "main": "./lib/relevantText",
+    "bin": {
+        "relevant-text": "./bin/relevant-text"
+    },
+    "engines": {
+        "node": ">= 0.10.9"
+    },
+    "dependencies": {
+        "optimist": "0.6.0",
+        "zombie": "4.0.8"
+    },
+    "devDependencies": {},
+    "private": false
 }
